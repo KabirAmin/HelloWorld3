@@ -1,0 +1,14 @@
+[package]
+name = "slime_game"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.14"
+bevy_rapier3d = "0.27"
+rand = "0.8"
+glam = "0.28"
+
+[[bin]]
+name = "slime_game"
+path = "src/main.rs"
